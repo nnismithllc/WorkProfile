@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Information -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"/>
+
+  <!-- Style Information -->
+    <style>
+      body {
+        background-color: rgb(34, 33, 33);
+        align-content: center;
+      }
+
+      .slide {
+        justify-content: center;
+        border-color: white;
+      }
+
+      .row {
+
+      margin-top: 25px; 
+      margin-left: 50px;
+      margin-right: 50px;
+      }
+
+      #media {
+justify-content: center;
+justify-items: center;
+padding-left: 5%;
+border-right: 20%;
+      }
+
+      #media2 {
+justify-content: center;
+padding-left: 5%;
+      }
+    </style>
+
+    <script>
+var i = 0;
+var images = [];
+var time = 5000;
+
+images[0] = 'stylesheets/Images/lifecode.jpg'
+images[1] = 'stylesheets/Images/michigan.jpg'
+images[2] = 'stylesheets/Images/UofM.jpg'
+images[3] = 'stylesheets/Images/life.jpg'
+images[4] = 'stylesheets/Images/f15.jpg'
+
+function changeImages (){
+document.slide.src =images [i];
+
+if (i < images.length -1){
+  i++;
+} else {
+  i=0;
+}
+
+setTimeout ("changeImages()", time);
+
+}
+
+window.onload = changeImages;
+
+  </script>
+  </head>
+
+<!-- Body Information and Nav Bar -->
+  <body>
+     <ul class="nav justify-content-center">
+       <li class="nav-item"><a class="nav-link active" href="home.html" >Home</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link active" href="AboutMe.html">About Me</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="Portfolio.html">Portfolio</a>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12" >
+        <img name = "slide" width="1000" height="500">
+
+        <p> <a href="mailto:nnismithllc@gmail.com" >Please Contact Me At: NNISMITHLLC@GMAIL.COM</a></p>
+
+<!-- Card Information -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> My Project Journey</h5>
+              <p class="card-text"> Would you like to connect with me on Github? Check out my Database of Projects. Enjoy the view. </p>
+              <a href="https://github.com/nnismithllc" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">My Work Highlight</h5>
+              <p class="card-text">Career Experience is the way you get to know my skill-set and passion. Take a Stroll through My History.</p>
+              <a href="https://www.linkedin.com/in/nintia-smith-2b913b1aa/" class="btn btn-primary">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
