@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,58 +12,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Satisfy&display=swap" rel="stylesheet">
-
-
-    <ul class="nav justify-content-center">
-    
-        <li class="nav-item">
-        <a class="nav-link active" href="AboutMe.html">About Me</a>
-        </li>
-        <li class="nav-item">
-         <a class="nav-link" href="Portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-    </ul>
-
-<!-- Container Information -->
-<div class="container" id="more">   
-   <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-    <h2 class="display-4" id="mi">My Transparency</h2>
-    <p class="lead" id="lalah"> "She Remembered Who She Was, and The Game Changed" - Lalah Deliah</p>
-    </div>
-</div>
-
-<!-- Card Information -->
-<div class="row"></div>
-<div class="card">
-    <div class="d-flex justify-content-center">
-    <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="stylesheets\Images\Tia.jpg" alt="Tia Image">
-    <div class="card-body">
-    <p class="card-text" id=card1> <a href="AboutMe.html" class="card-link">About Me</a></p>
-  
-</div>
-    <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="stylesheets\Images\LandDegrees.JPG" alt="LandDegrees Image">
-    <div class="card-body">
-    <p class="card-text"> <a href="Portfolio.html" class="card-link">Project Design</a> </p>
-</div>
-
-    <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="stylesheets\Images\lifecode.jpg" alt="Life Code">
-    <div class="card-body">
-    <p class="card-text"> <a href="contact.html" class="card-link">Contact Me</a> </p>
-
-</div>
-</div>
- </div>
-
- <!-- Style Information -->
+<!-- Style Information -->
 <style> 
+    *{
+margin: 0;
+padding: 0;
+}
 
 body {
 background-color: rgb(34, 33, 33);
@@ -74,62 +29,64 @@ line-height: 1.6em;
 color: rgb(236, 18, 18);
 }
 
-
-
-p.card-text {
-color: white;
-justify-items: center;
-padding-left: 20%;
-padding-right: 6%;
-font-family:'Dancing Script', cursive;
-font-size: 2pc;
+h1{
+    align-content: center;
+    padding-left: 42%;
 }
 
-#card1 {
+p{
 color: white;
-justify-items: center;
-padding-left: 30%;
-padding-right: 6%;
-font-family:'Dancing Script', cursive;
-font-size: 2pc;
-
-
+align-content: center;
+padding-left: 40%;
 }
 
 #lalah{
-color: black;
-font-size: 21pt;
-justify-content: center;
+color: blue;
+font-size: larger;
+align-content: left;
 
+}
+#showcase{
+background-image: url("stylesheets/Images/hand.jpg");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+height: 120vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
 }
 
 .button{
 align-content: center;
-/* padding-left: 40%; */
+padding-left: 50%;
 font-size: large;
  }
 
 .jumbotron{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Dancing Script', cursive;
     color: black; 
+}
+
+.mi{
+    color:rgb(236, 18, 18);
     align-content: center;
+    font-family: 'Antic Slab', serif;
+    /* font-family: 'Dancing Script', cursive; */
+    
 }
 
-.card {
-background-color: darkblue;
-/* padding-top: 10px; */
-border-style: solid;
-border-top-color: white;
-border-bottom-color: white ;
+</style> 
+</head>
 
-}
+<!-- Body Information -->
+<body>
+    <header id="showcase">
+    <h1>Ms. Smith's Journey</h1> 
+    <p>Come Explore and Journey Through Snippets of My Life</p>
+    <a href="starter.html" display=block class="button" id="read" onclick="open()"> Open Pandora's Box</a>
+    <!-- <button type="button" id="read" onclick="read()"> Open Pandora's Box</button> -->
+    </header>
 
-.card-link {
-color: whitesmoke;
-justify-content: center;
 
-}
-
-</style>
-</div>
-</body>
