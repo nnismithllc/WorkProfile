@@ -1,5 +1,5 @@
-## Project Title
-Bootstrap - About Me
+## Work Profile
+
 
 Getting Started
 To execute this project on your computer, you’ll need to open a command shell (also known as command prompt, terminal, and command line) of your preference. Here are some suggestions: 
@@ -19,9 +19,15 @@ Install Git
 
 ## Description 
 
-This is an webpage given detailed information about me. It depicts my creative side of style, imaging, and layout of 
-a webpage. Its user-friendly and easy nagivation platform. It is depicted in large scale picture attributes for older
-visually impaired viewers.
+These are webpages given detailed information about me. It depicts my creative side of style, imaging, and layout of 
+a webpage. Its user-friendly and easy nagivation platform. It is depicted in visually guided lines to help navigate direction of the text.
+
+![image](https://user-images.githubusercontent.com/65423204/95669876-1fe19280-0b53-11eb-8b4d-2af0ddc77b74.png)
+
+![image](https://user-images.githubusercontent.com/65423204/95669900-4b647d00-0b53-11eb-9595-4e3a012ad291.png)
+
+![image](https://user-images.githubusercontent.com/65423204/95669921-823a9300-0b53-11eb-9c19-fde15dba9d7a.png)
+
 
 ## Installation
 
@@ -29,8 +35,7 @@ You will need a coding system (i.e. Visual Studio Code) to run, make changes, an
 
 ## Usage 
 There are several links to consider when using this file:
-1. The Navigation Bar directs the traffic to other pages: About Me, Portfolio, Contact, and Home.
-
+1. The Navigation Bar directs the traffic to other pages: About Me, Portfolio, Contact, and Starter.
 2. The Home page has additional centered images with correlating links to the same pages listed above.
 
 ##  MIT License
@@ -58,5 +63,3 @@ SOFTWARE.
 ## Authors
 Tia Smith.
 
-## Acknowledgments
-My T.A. Vince Shury
