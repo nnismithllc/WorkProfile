@@ -34,6 +34,10 @@
     background-color: inherit;
     width: 50%;
   }
+
+h3 {
+justify-content: center;
+  }
   
   /* The circles on the timeline */
   .container::after {
@@ -91,11 +95,12 @@
   .right::after {
     left: -16px;
   }
+
   
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color:black;
     position: relative;
     border-radius: 6px;
   }
@@ -132,3 +137,7 @@
       left: 0%;
     }
   }
+
+.pr-2 {
+justify-content: center;
+}
